@@ -1,0 +1,40 @@
+header {
+	position: relative;
+	height: 40rem;
+   text-align: center;
+   color: #fff;
+   background-image: url(../img/the-ball-sm2.jpg);
+   background-position: center center;
+   background-repeat: none;
+   @include bkg-size();
+	@media screen and (min-width: $breakpoint-sm) {
+		
+   	background: url(../img/the-ball-md2.jpg);
+		background-position: center center;
+   background-repeat: none;
+   @include bkg-size();
+  }
+	@media screen and (min-width: $breakpoint-md) {
+		height: 45rem;
+   	background: url(../img/the-ball-sm.jpg);
+		background-position: center center;
+   background-repeat: none;
+   @include bkg-size();
+  }
+	@media screen and (min-width: $breakpoint-lg) {
+		height: 45rem;
+   	background: url(../img/the-ball-lg.jpg);
+		background-position: center center;
+   background-repeat: none;
+   @include bkg-size();
+  }
+}
+
+.soccer{
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	height: 30%;
+	padding: 2rem;
+	background-color: $head-font-bkg;
+}
