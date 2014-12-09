@@ -1,11 +1,23 @@
-.site-navigation {
+.navbar{
+	margin: 0;
+	background: $nav-foot-bkg;
+}
 
-	> ul {
+.navbar-brand{
+	font-family: $header-font;
+	font-size: $h3-size;
+}
 
-		> li {
+.navbar-default .navbar-brand{
+	color: $font-wh;
+}
 
-			> a { }
-		}
-	}
+.navbar-default{
+	border: none;
+}
 
+
+.navbar-default .navbar-nav>li>a{
+	color: $font-wh;
+	
 }

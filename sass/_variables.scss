@@ -10,9 +10,20 @@ $breakpoint-md : 992px;
 $breakpoint-lg : 1200px; 
 
 /* Fonts */
-$font-primary:  "Helvetica Neue", Helvetica, Arial, sans-serif;
+$header-font: 'Amarante', 'Century Gothic', Georgia, cursive;
+$h1-size: 5.5rem;
+$h2-size: 3.5rem;
+$h3-size: 3rem;
+$h4-size: 2rem;
+
+$primary-font:  'Lato', Helvetica, Arial, sans-serif;
 $font-secondary:  "Georgia", Cambria, Times New Roman, Times, serif;
 
 
 /* Colours */
 $head-font-bkg: rgba(0, 0, 0, 0.5);
+
+$font-wh: #fff;
+
+$map-bkg: rgba(80, 125, 206, 0.9);
+$nav-foot-bkg: #FC8036;

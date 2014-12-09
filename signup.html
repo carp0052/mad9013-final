@@ -5,6 +5,9 @@
     
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Sign Up</title>
+	  
+	  <!-- Google Fonts --> 
+	 <link href='http://fonts.googleapis.com/css?family=Lato&#124;Amarante' rel='stylesheet' type='text/css'>
 
     <!-- Bootstrap -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
@@ -18,7 +21,7 @@
 	  
 	  	      <!-- Static navbar -->
     <nav class="navbar navbar-default navbar-static-top" role="navigation">
-      <div class="container">
+      <div class="container-fluid">
         <div class="navbar-header">
           <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
             <span class="sr-only">Toggle navigation</span>
@@ -26,7 +29,7 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="index.html">Project name</a>
+          <a class="navbar-brand" href="index.html">CASL</a>
         </div>
         <div id="navbar" class="navbar-collapse collapse navbar-right">
           <ul class="nav navbar-nav">
@@ -38,158 +41,148 @@
         </div><!--/.nav-collapse -->
       </div>
     </nav>
+	  
+	  <!-- Header -->
+	  <header>
+		  <div class="soccer">
+			  <h1>Canadian Amateur Soccer League</h1>
+        </div>        
+	  </header>
     
-	  <div class="container-fluid">
-  <h3>Bootstrap Form Examples</h3>
-  <hr>
-
-  <div class="row">
-    <div class="col-md-6">
-        <div class="panel panel-default">
-            <div class="panel-heading"><h3 class="panel-title">Payment Form</h3></div>
-            <div class="panel-body">
-                <fieldset>
-                    <div class="control-group">
-                        <label label-default="" class="control-label">Card Holder's Name</label>
-                        <div class="controls">
-                            <input type="text" class="form-control" pattern="\w+ \w+.*" title="First and last name" required="">
-                        </div>
-                    </div>						 
-						 <div class="control-group">
-                        <label label-default="" class="control-label">Card Type</label>
-                        <div class="controls">
-                            <label class="radio-inline"><input type="radio" name="amex">American Express</label>
-<label class="radio-inline"><input type="radio" name="mastercard">Mastercard</label>
-<label class="radio-inline"><input type="radio" name="visa">Visa</label>
-                        </div>
-                    </div>
-                    <div class="control-group">
-                        <label label-default="" class="control-label">Card Number</label>
-                        <div class="controls">
-                            <div class="row">
-                                <div class="col-xs-3">
-                                    <input type="text" class="form-control" autocomplete="off" maxlength="4" pattern="\d{4}" title="First four digits" required="">
-                                </div>
-                                <div class="col-xs-3">
-                                    <input type="text" class="form-control" autocomplete="off" maxlength="4" pattern="\d{4}" title="Second four digits" required="">
-                                </div>
-                                <div class="col-xs-3">
-                                    <input type="text" class="form-control" autocomplete="off" maxlength="4" pattern="\d{4}" title="Third four digits" required="">
-                                </div>
-                                <div class="col-xs-3">
-                                    <input type="text" class="form-control" autocomplete="off" maxlength="4" pattern="\d{4}" title="Fourth four digits" required="">
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="control-group">
-                        <label label-default="" class="control-label">Card Expiration Date</label>
-                        <div class="controls">
-                            <div class="row">
-                                <div class="col-xs-9">
-                                    <select class="form-control" name="cc_exp_mo">
-                                        <option value="01">January</option>
-                                        <option value="02">February</option>
-                                        <option value="03">March</option>
-                                        <option value="04">April</option>
-                                        <option value="05">May</option>
-                                        <option value="06">June</option>
-                                        <option value="07">July</option>
-                                        <option value="08">August</option>
-                                        <option value="09">September</option>
-                                        <option value="10">October</option>
-                                        <option value="11">November</option>
-                                        <option value="12">December</option>
-                                    </select>
-                                </div>
-                                <div class="col-xs-3">
-                                    <select class="form-control" name="cc_exp_yr">
-                                        <option value="2014">2014</option>
-                                        <option value="2015">2015</option>
-                                        <option value="2016">2016</option>
-                                        <option value="2017">2017</option>
-                                        <option value="2018">2018</option>
-                                        <option value="2019">2019</option>
-                                        <option value="2020">2020</option>
-                                        <option value="2021">2021</option>
-                                        <option value="2022">2022</option>
-                                    </select>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="control-group">
-                        <label label-default="" class="control-label">Card CVV</label>
-                        <div class="controls">
-                            <div class="row">
-                                <div class="col-md-3">
-                                    <input type="text" class="form-control" autocomplete="off" maxlength="3" pattern="\d{3}" title="Three digits at back of your card" required="">
-                                </div>
-                                <div class="col-md-9">
-                                    <div class="controls pull-right">
-                                        <button type="submit" class="btn btn-primary">Submit</button> 
-                                        <button type="button" class="btn btn-default">Cancel</button>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </fieldset><!--/end payment form-->
-            </div><!--panel-body-->
-        </div><!--panel-->
-    </div><!--/col-->
-  </div><!--/row-->
-
-  <div class="row">
-    <div class="col-xs-12">
-      <div class="panel panel-default">
-        <div class="panel-heading">
-          <h3 class="panel-title">Inputs</h3>
-        </div>
-       
-        <div class="panel-body">
-          <form class="form-horizontal row-border" action="#">
-            <div class="form-group">
-              <label for="name" class="col-md-2 control-label">Full Name</label>
-              <div class="col-md-10">
-                <input type="text" name="name" id="name" class="form-control">
-              </div>
-            </div>
-            <div class="form-group">
-              <label for="Address" class="col-md-2 control-label">Address</label>
-              <div class="col-md-10">
-                <input type="text" name="address" id="address" class="form-control">
-              </div>
-            </div>
-            <div class="form-group">
-              <label class="col-md-2 control-label">With placeholder</label>
-              <div class="col-md-10">
-                <input class="form-control" type="text" name="placeholder" placeholder="placeholder">
-              </div>
-            </div>
-            <div class="form-group">
-              <label class="col-md-2 control-label">Help text</label>
-              <div class="col-md-10">
-                <input type="text" name="regular" class="form-control">
-                <span class="help-block">A block of help text that breaks onto a new line and may extend beyond one line.</span>
-              </div>
-            </div>
-            <div class="form-group">
-              <label class="col-md-2 control-label">Predefined value</label>
-              <div class="col-md-10">
-                <input type="text" name="regular" value="http://" class="form-control">
-              </div>
-            </div>
-          </form>
-        </div>
-      </div>
-    </div>
-  </div><!--/row-->
-</div><!--/container-->
+	  <!-- Main Content -->
+	  <div class="container">
+	  	<div class="row">
+			<div class="col-sm-4">
+				<div class="page-header">
+					<h3>Interested?</h3>
+				</div>
+				<p>After a time the ladder was finished.  It looked clumsy, but the Tin Woodman was sure it was strong and would answer their purpose.  The Scarecrow waked Dorothy and the Lion and Toto, and told them that the ladder was ready.  The Scarecrow climbed up the ladder first, but he was so awkward that Dorothy had to follow close behind and keep him from falling off.  When he got his head over the top of the wall the Scarecrow said, "Oh, my!" "Go on," exclaimed Dorothy. So the Scarecrow climbed farther up and sat down on the top of the wall, and Dorothy put her head over and cried, "Oh, my!" just as the Scarecrow had done. Then Toto came up, and immediately began to bark, but Dorothy made him be still.</p>
+			</div>
+			<div class="col-sm-8">
+				<div class="page-header">
+					<h3>Sign Up Now</h3>
+				</div>
+				<div class="panel panel-default">
+				  <div class="panel-heading">
+					 <h3 class="panel-title">Register</h3>
+				  </div>
+				  <div class="panel-body">
+					 <form class="form-horizontal" role="form">
+  						
+						 <div class="form-group">
+    						<label for="name" class="col-sm-4 control-label">Full Name</label>
+    							<div class="col-sm-8">
+      						<input type="text" class="form-control" id="name" placeholder="Dorothy Gale">
+    							</div>
+  						 </div>
+						 <div class="form-group">
+    						<label for="address" class="col-sm-4 control-label">Street Address</label>
+    							<div class="col-sm-8">
+      						<input type="text" class="form-control" id="address" placeholder="123 Yellow Brick Road">
+    							</div>
+  						</div>
+						<div class="form-group">
+    						<label for="city" class="col-sm-4 control-label">City</label>
+    							<div class="col-sm-8">
+      						<input type="text" class="form-control" id="city" placeholder="Ottawa">
+    							</div>
+  						</div>
+						 <div class="form-group">
+							 <label for="province" class="col-sm-4 control-label">Province</label>
+							 <div class="col-sm-4">
+							 <select class="form-control">
+								  <option>Alberta</option>
+								  <option>British Columbia</option>
+								  <option>Manitoba</option>
+								  <option>New Brunswick</option>
+								  <option>Newfoundland</option>
+								  <option>Nova Scotia</option>
+								  <option>Ontario</option>
+								  <option>Prince Edward Island</option>
+								  <option>Quebec</option>
+								  <option>Saskatchewan</option>
+							 </select>
+							 </div>
+						 </div>
+  						 <div class="form-group">
+    						<label for="postalCode" class="col-xs-12 col-sm-4 control-label">Postal Code</label>
+    							<div class="col-xs-3">
+      						<input type="text" class="form-control" id="postalCode" placeholder="H0H">
+    							</div>
+								<div class="col-xs-3">
+      						<input type="text" class="form-control" id="postalCode2" placeholder="0H0">
+    							</div>
+  						 </div>
+						 <div class="form-group">
+    						<label class="col-xs-12 col-sm-4 control-label">Credit Card Type</label>
+    							<div class="col-xs-4 col-sm-3">
+									<label class="radio-inline">
+  									<input type="radio" name="amx" id="amx" value="amx">American Express
+									</label>
+    							</div>
+							 	<div class="col-xs-4 col-sm-3">
+									<label class="radio-inline">
+  									<input type="radio" name="mc" id="mc" value="mc">Mastercard
+									</label>
+    							</div>
+							 	<div class="col-xs-4 col-sm-2">
+									<label class="radio-inline">
+  									<input type="radio" name="visa" id="visa" value="visa">Visa
+									</label>
+    							</div>
+  						 </div>
+						 <div class="form-group">
+    						<label for="ccNumber" class="col-xs-12 col-sm-4 control-label">Credit Card Number</label>
+    							<div class="col-xs-3 col-sm-2">
+      						<input type="text" class="form-control" id="ccNumber" placeholder="xxxx">
+    							</div>
+								<div class="col-xs-3 col-sm-2">
+      						<input type="text" class="form-control" id="ccNumber2" placeholder="xxxx">
+    							</div>
+							   <div class="col-xs-3 col-sm-2">
+      						<input type="text" class="form-control" id="ccNumber3" placeholder="xxxx">
+    							</div>
+							 	<div class="col-xs-3 col-sm-2">
+      						<input type="text" class="form-control" id="ccNumber4" placeholder="xxxx">
+    							</div>
+  						 </div>
+						 <div class="form-group">
+    						<label for="ccName" class="col-sm-4 control-label">Name on Card</label>
+    							<div class="col-sm-8">
+      						<input type="text" class="form-control" id="ccName" placeholder="Dorothy Gale">
+    							</div>
+  						 </div>
+						 <div class="form-group">
+    						<label for="securityCode" class="col-xs-12 col-sm-4 control-label">Security Code</label>
+    							<div class="col-xs-3">
+      						<input type="text" class="form-control" id="securityCode">
+    							</div>
+  						 </div>
+						 
+  						<div class="form-group">
+    						<div class="col-sm-offset-4 col-sm-8">
+      					<div class="checkbox">
+							<label>
+          				<input type="checkbox"> I'd like to receive the CASL newsletter
+        					</label>
+      					</div>
+    						</div>
+  						</div>
+  					<div class="form-group">
+						<div class="col-sm-offset-4 col-sm-8">
+							<button type="submit" class="btn btn-default">Sign up</button>
+    					</div>
+  					</div>
+				</form>
+			</div>
+		 </div>
+		</div>
+	  </div>
+	 </div>
 	  
 	  <footer class="footer">
       <div class="container-fluid">
-        <p class="text-muted">Place sticky footer content here.</p>
+        <p>&copy; 2014 Sara Carpinone</p>
       </div>
     </footer> 
 	  
