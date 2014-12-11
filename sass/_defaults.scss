@@ -1,3 +1,7 @@
 p, a, td, th, h2, h3, h4, h5, label{
 	font-family: $primary-font;
 }
+
+blockquote{
+	font-size: $base-font-size;
+}
